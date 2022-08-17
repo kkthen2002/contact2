@@ -1,0 +1,26 @@
+{
+    "name": "kkthen2002/contact2",
+    "description": "Testing - This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kkthen",
+            "email": "kkthen2002@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kkthen2002\\Contact2\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kkthen2002\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}

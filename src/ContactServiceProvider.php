@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Contact;
+namespace Kkthen2002\Contact2;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Contact\Mail;
+namespace Kkthen2002\Contact2\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
@@ -8,7 +8,8 @@ use Illuminate\Queue\SerializesModels;
 
 class ContactMailable extends Mailable
 {
-    use Queueable, SerializesModels;
+    use Queueable;
+    use SerializesModels;
     public $message;
     public $name;
 

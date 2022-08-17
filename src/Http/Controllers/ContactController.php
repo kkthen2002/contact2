@@ -1,10 +1,10 @@
 <?php
 
-namespace Bitfumes\Contact\Http\Controllers;
+namespace Kkthen2002\Contact2\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bitfumes\Contact\Models\Contact;
+use Kkthen2002\Contact2\Models\Contact;
 
 // use Bitfumes\Contact\Mail\ContactMailable;
 // use Illuminate\Support\Facades\Mail;
